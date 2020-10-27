@@ -12,6 +12,8 @@ The problem was solved trying two powerful methods. By one hand we train several
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
+For this project we built two pipeline, each for tool as we see ine the following image:
+![architecture](/image/creating-and-optimizing-an-ml-pipeline.jpg)
 
 **What are the benefits of the parameter sampler you chose?**
 
