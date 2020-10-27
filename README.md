@@ -12,8 +12,9 @@ The problem was solved trying two powerful methods. By one hand we train several
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
-For this project we built two pipeline, each for tool as we see ine the following image:
-![architecture](/image/creating-and-optimizing-an-ml-pipeline.jpg)
+For this project we built two pipeline, one for each tool as we see in the following image:
+![architecture](/image/creating-and-optimizing-an-ml-pipeline.png)
+First we write a training script in wich the data is obtained using TabularDatasetFactory. Then we built a estimator that specifies the location of the script, sets up its fixed parameters, including the compute target and specifies the packages needed to run the script. We saw how Azure Machine Learning can help us to automate the process of hyperarameter tuning, we launched multiple runs with different values for numbers in the sequence. So we defined the parameter space using random sampling.
 
 **What are the benefits of the parameter sampler you chose?**
 
@@ -35,3 +36,4 @@ By one hand we train several models using the Hyperdrive tool, in wich the best 
 
 ## Sources:
 https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
+https://classroom.udacity.com/nanodegrees/nd00333/parts/e0c51a58-32b4-4761-897b-92f6183148ac/modules/485dd1ee-e43b-468b-8e0f-60d9fe611adc/lessons/4a35baec-993d-4857-9973-85ab67ea55a2/concepts/22fbca72-0617-4c3e-84fb-5194ff28102b
