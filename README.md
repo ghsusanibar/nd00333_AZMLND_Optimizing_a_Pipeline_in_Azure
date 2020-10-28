@@ -49,7 +49,12 @@ In general, both best models from Hyperdrive and AutoML turned out with an accur
 In the case of the Hyperdrive we can test another algorithms for example LightGBM or a Neural Net in order to find the best hyperparameters. And for the AutoML we can test more time in order to find better models and leverage the Explanation tool in order to interpret the most important variables.
 
 ## Proof of cluster clean up
-We can use the delete method of the AmlCompute class in order to Remove the AmlCompute object from its associated workspace.
+I used the delete method of the AmlCompute class in order to clean up the Compute cluster from its associated workspace as we can see in the following image.
+
+![Cleaunp](/image/cleanup_1.jpg)
+
+![Cleaunp](/image/cleanup_2.jpg)
+
 
 ## Sources:
 https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
